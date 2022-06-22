@@ -29,7 +29,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 
 
-Dibuat okey by : ${chalk.bold('MUEQ5854')}  -  Credit : @dkmpostor & @Eskey
+By : ${chalk.bold('salammu5854')} - Credit : @dkmpostor & @Eskey
 `);
 
   const auth = rs.question('Enter Authentication Code! : ');
