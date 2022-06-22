@@ -26,9 +26,14 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 });
 
 (async () => {
+__  __ _   _ _____ _____        __
+|  \/  | | | | ____/ _ \ \      / /
+| |\/| | | | |  _|| | | \ \ /\ / /
+| |  | | |_| | |__| |_| |\ V  V /
+|_|  |_|\___/|_____\__\_\ \_/\_/
 
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Mueq5854')} - Credit : @dkmpostor & @Eskey
+  console.log(`Trophy And Crown Hack Safe! 
+By : ${kapur.bold('Mueq5854')} - Credit : @dkmpostor & @Eskey
 `);
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -48,11 +53,11 @@ By : ${chalk.bold('Mueq5854')} - Credit : @dkmpostor & @Eskey
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.gold(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+console.log(kapur.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${kapur.white(`User : ${username}`)} | ${kapur.blue(`Trophy : ${trophy}`)} | ${kapur.red(`Crown : ${crown}`)}`));
       await sleep(6000);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account And a Tel ah Di Banned`));
+      console.log(kapur.bgRed(`Your Account Anda Telah Di Banned`));
      break;
     }
   }
